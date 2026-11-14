@@ -13,7 +13,7 @@ interface Props {
 const { lang } = Astro.props;
 const t = ui[lang];
 
-const allShots = import.meta.glob<{ default: ImageMetadata }>('../assets/shots/*/0*.png', { eager: true });
+const allShots = import.meta.glob<{ default: ImageMetadata }>('../assets/shots/*/*.png', { eager: true });
 const shots = Object.entries(allShots)
 	.filter(([file]) => file.includes(`/shots/${lang}/`))
 	.sort(([a], [b]) => a.localeCompare(b))
@@ -51,8 +51,7 @@ const coins = ['var(--yellow)', 'var(--orange)', 'var(--mint)'];
 			{
 				shots.slice(1).map((s) => (
 					<figure>
-						<Image src={s.src} alt="" width={300} densities={[1, 2]} class="shot" />
-						<figcaption>{s.alt}</figcaption>
+						<Image src={s.src} alt={s.alt} width={300} densities={[1, 2]} class="shot" />
 					</figure>
 				))
 			}

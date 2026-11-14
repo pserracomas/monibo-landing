@@ -62,24 +62,29 @@ type Strings = {
 export const ui: Record<Lang, Strings> = {
 	en: {
 		meta: {
-			title: 'Monibo · Log spending in 3 seconds',
+			title: 'Monibo · Log spending in seconds',
 			description:
 				'Monibo is the expense tracker for iPhone and Apple Watch that opens straight to the keypad. No account, no ads, your data on your device.',
 		},
 		nav: { features: 'Features', pro: 'Pro', support: 'Support', privacy: 'Privacy', terms: 'Terms' },
 		hero: {
 			kicker: 'For iPhone and Apple Watch',
-			title: 'Log spending in 3 seconds',
+			title: 'Log spending in seconds',
 			lead: 'Tap, type the amount, done. Monibo makes tracking your money so quick you’ll actually keep doing it.',
 			note: 'No account · No ads · No tracking',
 		},
 		store: { download: 'Download on the', downloadBig: 'App Store', soon: 'Coming soon', soonSub: 'to the App Store' },
 		shots: [
-			'Quick entry opens on the keypad',
-			'Every transaction, searchable',
-			'Monthly summary by category',
-			'Weekly review of what’s pending',
+			'Log an expense in seconds',
+			'Say it in your own words',
+			'Widgets, Siri and the Action button',
+			'Apple Watch',
+			'Apple Pay and bank texts, logged for you',
+			'Monthly summary',
+			'Bring your history from other apps',
+			'Ask about your spending',
 			'Profiles and accounts',
+			'Synced through iCloud',
 		],
 		featuresTitle: 'Everything it takes, nothing in the way',
 		features: [
@@ -149,24 +154,29 @@ export const ui: Record<Lang, Strings> = {
 	},
 	ca: {
 		meta: {
-			title: 'Monibo · Apunta la despesa en 3 segons',
+			title: 'Monibo · Apunta despeses en pocs segons',
 			description:
 				'Monibo és l’app de despeses per a iPhone i Apple Watch que s’obre directament al teclat. Sense compte, sense anuncis, amb les dades al teu dispositiu.',
 		},
 		nav: { features: 'Funcions', pro: 'Pro', support: 'Suport', privacy: 'Privacitat', terms: 'Condicions' },
 		hero: {
 			kicker: 'Per a iPhone i Apple Watch',
-			title: 'Apunta la despesa en 3 segons',
+			title: 'Apunta despeses en pocs segons',
 			lead: 'Un toc, l’import i fet. Monibo fa que apuntar els diners sigui tan ràpid que no ho deixaràs de fer.',
 			note: 'Sense compte · Sense anuncis · Sense seguiment',
 		},
 		store: { download: 'Descarrega-la a', downloadBig: 'l’App Store', soon: 'Molt aviat', soonSub: 'a l’App Store' },
 		shots: [
-			'L’entrada ràpida s’obre al teclat',
-			'Tots els moviments, amb cerca',
-			'Resum mensual per categoria',
-			'Revisió setmanal del que queda pendent',
+			'Apunta una despesa en pocs segons',
+			'Digues-ho a la teva manera',
+			'Widgets, Siri i el botó d’acció',
+			'Apple Watch',
+			'Apple Pay i avisos del banc, apuntats sols',
+			'Resum mensual',
+			'Porta l’historial d’altres apps',
+			'Pregunta sobre la despesa',
 			'Perfils i comptes',
+			'Sincronitzat amb iCloud',
 		],
 		featuresTitle: 'Tot el que cal, res que destorbi',
 		features: [
@@ -236,24 +246,29 @@ export const ui: Record<Lang, Strings> = {
 	},
 	es: {
 		meta: {
-			title: 'Monibo · Apunta gastos en 3 segundos',
+			title: 'Monibo · Apunta tus gastos en segundos',
 			description:
 				'Monibo es la app de gastos para iPhone y Apple Watch que se abre directamente en el teclado. Sin cuenta, sin anuncios, con tus datos en tu dispositivo.',
 		},
 		nav: { features: 'Funciones', pro: 'Pro', support: 'Soporte', privacy: 'Privacidad', terms: 'Condiciones' },
 		hero: {
 			kicker: 'Para iPhone y Apple Watch',
-			title: 'Apunta gastos en 3 segundos',
+			title: 'Apunta tus gastos en segundos',
 			lead: 'Un toque, el importe y listo. Monibo hace que apuntar tu dinero sea tan rápido que no lo dejarás.',
 			note: 'Sin cuenta · Sin anuncios · Sin seguimiento',
 		},
 		store: { download: 'Descárgala en el', downloadBig: 'App Store', soon: 'Muy pronto', soonSub: 'en el App Store' },
 		shots: [
-			'La entrada rápida se abre en el teclado',
-			'Todos los movimientos, con búsqueda',
-			'Resumen mensual por categoría',
-			'Revisión semanal de lo pendiente',
+			'Apunta un gasto en segundos',
+			'Dilo a tu manera',
+			'Widgets, Siri y el botón de acción',
+			'Apple Watch',
+			'Apple Pay y avisos del banco, apuntados solos',
+			'Resumen mensual',
+			'Trae tu historial de otras apps',
+			'Pregunta sobre tus gastos',
 			'Perfiles y cuentas',
+			'Sincronizado con iCloud',
 		],
 		featuresTitle: 'Todo lo necesario, nada que estorbe',
 		features: [
