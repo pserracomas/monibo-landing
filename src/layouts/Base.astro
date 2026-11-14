@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import wordmark from '../assets/monibo-wordmark.svg?raw';
 import wordmarkDark from '../assets/monibo-wordmark-on-dark.svg?raw';
-import { CONTACT_EMAIL, OWNER, SITE_URL } from '../consts';
+import { APP_STORE_ID, CONTACT_EMAIL, OWNER, SITE_URL } from '../consts';
 import { defaultLang, languages, langs, path, ui, type Lang, type Slug } from '../i18n/ui';
 
 interface Props {
@@ -39,6 +39,7 @@ const year = new Date().getFullYear();
 				))
 		}
 		{!noindex && <link rel="alternate" hreflang="x-default" href={new URL(path(defaultLang, slug), SITE_URL).href} />}
+		{APP_STORE_ID && <meta name="apple-itunes-app" content={`app-id=${APP_STORE_ID}`} />}
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<meta name="theme-color" content="#FFF4E2" media="(prefers-color-scheme: light)" />

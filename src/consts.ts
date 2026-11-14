@@ -4,12 +4,11 @@ export const SITE_URL = 'https://monibo.app';
 export const CONTACT_EMAIL = 'hola@monibo.app';
 export const OWNER = 'Pedro Serra Comas';
 
-/**
- * App Store page. Leave null until Monibo is live: the buttons then read
- * "Coming soon to the App Store". Once approved, paste the link, e.g.
- * 'https://apps.apple.com/app/monibo/id0000000000'.
- */
-export const APP_STORE_URL: string | null = null;
+/** Monibo's App Store id. Set it to null to show "Coming soon" instead of the download buttons. */
+export const APP_STORE_ID: string | null = '6832778503';
+
+/** Country-neutral App Store link: Apple opens the visitor's own storefront. */
+export const APP_STORE_URL: string | null = APP_STORE_ID ? `https://apps.apple.com/app/id${APP_STORE_ID}` : null;
 
 /** Apple's Standard Licensed Application End User License Agreement. */
 export const APPLE_EULA_URL = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';

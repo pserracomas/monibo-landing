@@ -28,7 +28,7 @@ npm run preview
 
 | Path | What |
 |---|---|
-| `src/consts.ts` | Contact email, **App Store link** (null shows "Coming soon"), Pro prices, legal date |
+| `src/consts.ts` | Contact email, **App Store id** (null shows "Coming soon"), Pro prices, legal date |
 | `src/i18n/ui.ts` | All landing page texts in the three languages |
 | `src/legal/*.md` | Privacy policy, terms and support/FAQ, one Markdown file per page and language |
 | `src/views/` | Home and legal page templates shared by every language |
