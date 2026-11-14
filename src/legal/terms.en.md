@@ -45,4 +45,4 @@ Monibo is provided “as is”. To the extent permitted by law, the developer is
 
 ## Changes and contact
 
-These terms may be updated; the new version will be published on this page with an updated date. These terms are governed by Spanish law, without prejudice to the mandatory consumer protection rules of your country of residence. Questions: [pserracomas@gmail.com](mailto:pserracomas@gmail.com).
+These terms may be updated; the new version will be published on this page with an updated date. These terms are governed by Spanish law, without prejudice to the mandatory consumer protection rules of your country of residence. Questions: [hola@monibo.app](mailto:hola@monibo.app).

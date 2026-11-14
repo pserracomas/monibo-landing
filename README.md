@@ -40,6 +40,12 @@ When the privacy policy or terms change, edit the Markdown in every language and
 
 ## Deploy
 
-`dist/` is plain static files, so any static host works (Cloudflare Pages, Netlify, Vercel,
-GitHub Pages). Build command `npm run build`, output directory `dist`, then point `monibo.app`
-at the host.
+Every push to `main` builds the site and publishes it to GitHub Pages
+(`.github/workflows/deploy.yml`). `public/CNAME` holds the custom domain, `monibo.app`, whose
+DNS points at GitHub Pages:
+
+| Type | Name | Value |
+|---|---|---|
+| A | @ | 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 |
+| AAAA | @ | 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 |
+| CNAME | www | pserracomas.github.io |

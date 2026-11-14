@@ -1,7 +1,7 @@
 export const SITE_URL = 'https://monibo.app';
 
 /** Contact for support, privacy requests and App Review. */
-export const CONTACT_EMAIL = 'pserracomas@gmail.com';
+export const CONTACT_EMAIL = 'hola@monibo.app';
 export const OWNER = 'Pedro Serra Comas';
 
 /**

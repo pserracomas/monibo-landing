@@ -4,7 +4,7 @@ description: Ajuda amb Monibo, respostes a les preguntes més habituals i com co
 
 ## Escriu-nos
 
-Dubtes, errors o idees: escriu a [pserracomas@gmail.com](mailto:pserracomas@gmail.com?subject=Monibo). Si és un error, digues-nos el model d’iPhone, la versió d’iOS, la versió de Monibo i què estaves fent.
+Dubtes, errors o idees: escriu a [hola@monibo.app](mailto:hola@monibo.app?subject=Monibo). Si és un error, digues-nos el model d’iPhone, la versió d’iOS, la versió de Monibo i què estaves fent.
 
 ## Preguntes freqüents
 
@@ -14,11 +14,11 @@ No. Monibo no té registre ni inici de sessió. Les dades viuen als teus disposi
 
 ### Com sincronitzo entre dispositius?
 
-La sincronització amb iCloud està activada per defecte. Assegura’t que tens el mateix compte d’Apple a cada dispositiu i l’iCloud Drive activat. Ho pots comprovar o canviar a Configuració › Dades › iCloud.
+La sincronització amb iCloud està activada per defecte. Assegura’t que cada iPhone té la sessió d’iCloud iniciada amb el mateix compte d’Apple. Ho pots comprovar o canviar a Configuració › Sincronització.
 
 ### He canviat d’iPhone i no veig la compra de Pro.
 
-A Configuració › Passa a Pro, toca «Restaura les compres» amb el mateix compte d’Apple amb què la vas fer.
+A Configuració, toca la targeta del pla de dalt de tot i després «Restaura les compres», amb el mateix compte d’Apple amb què la vas fer.
 
 ### Com cancel·lo la subscripció?
 
@@ -26,11 +26,11 @@ A Configuració de l’iPhone › el teu nom › Subscripcions › Monibo. Pro c
 
 ### Com faig una còpia o exporto les dades?
 
-A Configuració › Exporta dades: una còpia completa que Monibo pot restaurar, o un CSV que pots obrir amb qualsevol full de càlcul.
+A Configuració › Exporta dades: una còpia completa que Monibo pot restaurar, o un CSV que pots obrir amb qualsevol full de càlcul. A Configuració › Còpia de seguretat també pots fer que Monibo desi una còpia completa cada dia a la carpeta que triïs.
 
 ### Puc portar l’historial d’una altra app?
 
-Sí. Monibo importa exportacions CSV de Money Pro, YNAB, Monarch, Copilot, Mint, Actual i moltes altres, a més de fitxers QIF, OFX i CSV del banc.
+Sí, a Configuració › Importa dades. Monibo importa exportacions CSV de Money Pro, YNAB, Monarch, Copilot, Mint, Actual i moltes altres, a més de fitxers QIF, OFX i CSV del banc.
 
 ### Com faig servir l’app de l’Apple Watch?
 
@@ -38,7 +38,7 @@ L’app de l’Apple Watch forma part de Monibo Pro. Instal·la-la des de l’ap
 
 ### Com funciona la captura automàtica?
 
-iOS no deixa que les apps llegeixin les notificacions d’altres apps, per això Monibo fa servir automatitzacions de Dreceres: una per als pagaments amb Apple Pay (Cartera) i una altra per als missatges o correus del banc. La guia pas a pas és a l’app, al menú del perfil › Automatitzacions.
+iOS no deixa que les apps llegeixin les notificacions d’altres apps, per això Monibo fa servir automatitzacions de Dreceres: una per als pagaments amb Apple Pay (Cartera) i una altra per als missatges o correus del banc. La guia pas a pas és a Configuració › Automatitzacions.
 
 ### Monibo fa servir IA? S’envien les meves dades?
 

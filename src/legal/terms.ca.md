@@ -45,4 +45,4 @@ Monibo s’ofereix «tal com és». En la mesura que ho permeti la llei, el dese
 
 ## Canvis i contacte
 
-Aquestes condicions es poden actualitzar; la nova versió es publicarà en aquesta pàgina amb la data actualitzada. Es regeixen per la llei espanyola, sense perjudici de les normes imperatives de protecció dels consumidors del teu país de residència. Dubtes: [pserracomas@gmail.com](mailto:pserracomas@gmail.com).
+Aquestes condicions es poden actualitzar; la nova versió es publicarà en aquesta pàgina amb la data actualitzada. Es regeixen per la llei espanyola, sense perjudici de les normes imperatives de protecció dels consumidors del teu país de residència. Dubtes: [hola@monibo.app](mailto:hola@monibo.app).

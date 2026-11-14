@@ -6,13 +6,15 @@ description: Com tracta Monibo les teves dades. Sense compte, sense servidors pr
 
 ## Responsable
 
-Monibo la desenvolupa Pedro Serra Comas (Espanya), que és el responsable de les dades que s’esmenten en aquesta política. Contacte: [pserracomas@gmail.com](mailto:pserracomas@gmail.com).
+Monibo la desenvolupa Pedro Serra Comas (Espanya), que és el responsable de les dades que s’esmenten en aquesta política. Contacte: [hola@monibo.app](mailto:hola@monibo.app).
 
 ## On es guarden les dades
 
 Tot el que apuntes a Monibo (moviments, comptes, categories, perfils, etiquetes, notes i fotos de tiquets) es desa a l’iPhone, i es comparteix amb l’Apple Watch i els widgets perquè ho puguin mostrar.
 
-**Sincronització amb iCloud.** La sincronització amb iCloud està activada per defecte perquè les dades arribin als teus altres dispositius. Es copien a la base de dades privada del *teu* compte d’iCloud, a la qual només tu tens accés; ni el desenvolupador ni ningú més les pot veure. Apple les tracta segons la seva pròpia [política de privacitat](https://www.apple.com/es/legal/privacy/). La pots desactivar a Configuració › Dades › iCloud.
+**Sincronització amb iCloud.** La sincronització amb iCloud està activada per defecte perquè les dades arribin als teus altres dispositius. Es copien a la base de dades privada del *teu* compte d’iCloud, a la qual només tu tens accés; ni el desenvolupador ni ningú més les pot veure. Apple les tracta segons la seva pròpia [política de privacitat](https://www.apple.com/es/legal/privacy/). La pots desactivar a Configuració › Sincronització.
+
+**Còpies de seguretat.** Si actives les còpies automàtiques (Configuració › Còpia de seguretat), Monibo desa una còpia completa un cop al dia a la carpeta que triïs, per exemple a iCloud Drive o Google Drive. Aquell servei la guarda segons les seves pròpies condicions.
 
 ## Veu, càmera i fotos
 

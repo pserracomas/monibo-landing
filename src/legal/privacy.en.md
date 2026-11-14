@@ -6,13 +6,15 @@ description: How Monibo handles your data. No account, no servers of its own, no
 
 ## Who is responsible
 
-Monibo is developed by Pedro Serra Comas (Spain), who is the controller for any data mentioned in this policy. Contact: [pserracomas@gmail.com](mailto:pserracomas@gmail.com).
+Monibo is developed by Pedro Serra Comas (Spain), who is the controller for any data mentioned in this policy. Contact: [hola@monibo.app](mailto:hola@monibo.app).
 
 ## Where your data lives
 
 Everything you record in Monibo (transactions, accounts, categories, profiles, tags, notes and receipt photos) is stored on your iPhone, and shared with your Apple Watch and widgets so they can show it.
 
-**iCloud sync.** iCloud sync is on by default so your data reaches your other devices. It is copied to the private database of *your* iCloud account, which only you can access; neither the developer nor anyone else can see it. Apple handles it under its own [privacy policy](https://www.apple.com/legal/privacy/). You can turn sync off in Settings › Data › iCloud.
+**iCloud sync.** iCloud sync is on by default so your data reaches your other devices. It is copied to the private database of *your* iCloud account, which only you can access; neither the developer nor anyone else can see it. Apple handles it under its own [privacy policy](https://www.apple.com/legal/privacy/). You can turn it off in Settings › Sync.
+
+**Backups.** If you turn on automatic backups (Settings › Backup), Monibo saves a full copy once a day in the folder you choose, for example in iCloud Drive or Google Drive. That service stores it under its own terms.
 
 ## Voice, camera and photos
 

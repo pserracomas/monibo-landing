@@ -45,4 +45,4 @@ Monibo se ofrece «tal cual». En la medida en que lo permita la ley, el desarro
 
 ## Cambios y contacto
 
-Estas condiciones pueden actualizarse; la nueva versión se publicará en esta página con la fecha actualizada. Se rigen por la ley española, sin perjuicio de las normas imperativas de protección de los consumidores de tu país de residencia. Dudas: [pserracomas@gmail.com](mailto:pserracomas@gmail.com).
+Estas condiciones pueden actualizarse; la nueva versión se publicará en esta página con la fecha actualizada. Se rigen por la ley española, sin perjuicio de las normas imperativas de protección de los consumidores de tu país de residencia. Dudas: [hola@monibo.app](mailto:hola@monibo.app).
