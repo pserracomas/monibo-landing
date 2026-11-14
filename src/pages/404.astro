@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { langs, path, ui } from '../i18n/ui';
+---
+
+<Base lang="en" slug="" title="404" noindex>
+	<section class="wrap prose not-found">
+		<h1 class="display">404</h1>
+		{
+			langs.map((l) => (
+				<p lang={l}>
+					<strong>{ui[l].notFound.title}.</strong> {ui[l].notFound.body} <a href={path(l)}>{ui[l].notFound.home} →</a>
+				</p>
+			))
+		}
+	</section>
+</Base>

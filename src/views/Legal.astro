@@ -1,0 +1,28 @@
+---
+import type { MarkdownInstance } from 'astro';
+import Base from '../layouts/Base.astro';
+import { LEGAL_UPDATED } from '../consts';
+import { formatDate, ui, type Lang } from '../i18n/ui';
+
+interface Props {
+	lang: Lang;
+	page: 'privacy' | 'terms' | 'support';
+}
+const { lang, page } = Astro.props;
+const t = ui[lang];
+
+const docs = import.meta.glob<MarkdownInstance<{ description?: string }>>('../legal/*.md', { eager: true });
+const doc = docs[`../legal/${page}.${lang}.md`];
+if (!doc) throw new Error(`Missing src/legal/${page}.${lang}.md`);
+
+const title = { privacy: t.legal.privacyTitle, terms: t.legal.termsTitle, support: t.legal.supportTitle }[page];
+const showDate = page !== 'support';
+---
+
+<Base lang={lang} slug={page} title={title} description={doc.frontmatter.description}>
+	<article class="wrap prose">
+		<h1 class="display">{title}</h1>
+		{showDate && <p class="muted">{t.legal.updated}: {formatDate(LEGAL_UPDATED, lang)}</p>}
+		<doc.Content />
+	</article>
+</Base>

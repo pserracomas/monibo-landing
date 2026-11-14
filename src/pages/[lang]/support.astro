@@ -1,0 +1,11 @@
+---
+import Legal from '../../views/Legal.astro';
+import { defaultLang, langs, type Lang } from '../../i18n/ui';
+
+export function getStaticPaths() {
+	return langs.filter((l) => l !== defaultLang).map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+---
+
+<Legal lang={lang} page="support" />
