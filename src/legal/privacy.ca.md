@@ -2,7 +2,7 @@
 description: Com tracta Monibo les teves dades. Sense compte, sense servidors propis, sense anuncis, sense analítica i sense seguiment.
 ---
 
-> **En poques paraules:** Monibo no té comptes d’usuari, no té servidors propis i no recull dades teves. Els teus moviments, comptes i categories es guarden als teus dispositius i, si la sincronització està activada, al teu propi iCloud. Sense anuncis, sense analítica, sense seguiment.
+> **En poques paraules:** Monibo no té comptes d’usuari ni servidors propis: sense anuncis, sense analítica, sense seguiment. Els teus moviments, comptes i categories es guarden als teus dispositius i, si la sincronització està activada, al teu propi iCloud. Les dades només en surten quan tu ho tries: la sincronització amb iCloud, les còpies de seguretat o la IA opcional amb la teva clau.
 
 ## Responsable
 
@@ -18,7 +18,7 @@ Tot el que apuntes a Monibo (moviments, comptes, categories, perfils, etiquetes,
 
 ## Veu, càmera i fotos
 
-Monibo només demana accés al micròfon, al reconeixement de veu, a la càmera o a les fotos quan fas servir una funció que ho necessita. El dictat es transcriu al mateix dispositiu. Les fotos de tiquets es llegeixen al dispositiu per treure’n l’import i no es pugen enlloc, tret del cas de la IA descrit més avall.
+Monibo només demana accés al micròfon, al reconeixement de veu, a la càmera o a les fotos quan fas servir una funció que ho necessita. Quan el teu idioma ho permet, el dictat es transcriu al mateix dispositiu; si no, el reconeixement de veu d’Apple pot processar l’àudio als servidors d’Apple, segons la política de privacitat d’Apple. Les frases escrites sempre s’entenen al dispositiu. Les fotos de tiquets es llegeixen al dispositiu per treure’n l’import i no es pugen enlloc, tret del cas de la IA descrit més avall.
 
 ## Captura automàtica
 

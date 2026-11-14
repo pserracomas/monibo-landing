@@ -64,13 +64,13 @@ export const ui: Record<Lang, Strings> = {
 		meta: {
 			title: 'Monibo · Log spending in seconds',
 			description:
-				'Monibo is the expense tracker for iPhone and Apple Watch that opens straight to the keypad. No account, no ads, your data on your device.',
+				'Monibo is the expense tracker for iPhone and Apple Watch that opens straight to the keypad. No account, no ads, no tracking.',
 		},
 		nav: { features: 'Features', pro: 'Pro', support: 'Support', privacy: 'Privacy', terms: 'Terms' },
 		hero: {
 			kicker: 'For iPhone and Apple Watch',
 			title: 'Log spending in seconds',
-			lead: 'Tap, type the amount, done. Monibo makes tracking your money so quick you’ll actually keep doing it.',
+			lead: 'Log an expense in a few seconds: type it or say it in your own words, like “34 groceries yesterday”. So quick you’ll actually keep doing it.',
 			note: 'No account · No ads · No tracking',
 		},
 		store: { download: 'Download on the', downloadBig: 'App Store', soon: 'Coming soon', soonSub: 'to the App Store' },
@@ -115,10 +115,10 @@ export const ui: Record<Lang, Strings> = {
 		],
 		privacy: {
 			title: 'Your money is your business',
-			lead: 'Monibo has no user accounts and no servers of its own. What you record stays on your devices and in your own iCloud.',
+			lead: 'Monibo has no user accounts and no servers of its own. Your totals are calculated on your iPhone, and sync goes through your own iCloud.',
 			points: [
 				'No sign-up, no ads, no analytics',
-				'Dictation is transcribed on the device',
+				'Sentences are understood on the device, without AI',
 				'AI is optional and only runs with your own key',
 			],
 			link: 'Read the privacy policy',
@@ -156,13 +156,13 @@ export const ui: Record<Lang, Strings> = {
 		meta: {
 			title: 'Monibo · Apunta despeses en pocs segons',
 			description:
-				'Monibo és l’app de despeses per a iPhone i Apple Watch que s’obre directament al teclat. Sense compte, sense anuncis, amb les dades al teu dispositiu.',
+				'Monibo és l’app de despeses per a iPhone i Apple Watch que s’obre directament al teclat. Sense compte, sense anuncis, sense seguiment.',
 		},
 		nav: { features: 'Funcions', pro: 'Pro', support: 'Suport', privacy: 'Privacitat', terms: 'Condicions' },
 		hero: {
 			kicker: 'Per a iPhone i Apple Watch',
 			title: 'Apunta despeses en pocs segons',
-			lead: 'Un toc, l’import i fet. Monibo fa que apuntar els diners sigui tan ràpid que no ho deixaràs de fer.',
+			lead: 'Apunta una despesa en pocs segons: escriu-la o digues-la a la teva manera, com «34 súper ahir». Tan ràpid que no ho deixaràs de fer.',
 			note: 'Sense compte · Sense anuncis · Sense seguiment',
 		},
 		store: { download: 'Descarrega-la a', downloadBig: 'l’App Store', soon: 'Molt aviat', soonSub: 'a l’App Store' },
@@ -207,10 +207,10 @@ export const ui: Record<Lang, Strings> = {
 		],
 		privacy: {
 			title: 'Els teus diners són cosa teva',
-			lead: 'Monibo no té comptes d’usuari ni servidors propis. El que apuntes es queda als teus dispositius i al teu iCloud.',
+			lead: 'Monibo no té comptes d’usuari ni servidors propis. Els totals es calculen al teu iPhone i la sincronització passa pel teu iCloud.',
 			points: [
 				'Sense registre, sense anuncis, sense analítica',
-				'El dictat es transcriu al mateix dispositiu',
+				'Les frases s’entenen al dispositiu, sense IA',
 				'La IA és opcional i només funciona amb la teva clau',
 			],
 			link: 'Llegeix la política de privacitat',
@@ -248,13 +248,13 @@ export const ui: Record<Lang, Strings> = {
 		meta: {
 			title: 'Monibo · Apunta tus gastos en segundos',
 			description:
-				'Monibo es la app de gastos para iPhone y Apple Watch que se abre directamente en el teclado. Sin cuenta, sin anuncios, con tus datos en tu dispositivo.',
+				'Monibo es la app de gastos para iPhone y Apple Watch que se abre directamente en el teclado. Sin cuenta, sin anuncios, sin seguimiento.',
 		},
 		nav: { features: 'Funciones', pro: 'Pro', support: 'Soporte', privacy: 'Privacidad', terms: 'Condiciones' },
 		hero: {
 			kicker: 'Para iPhone y Apple Watch',
 			title: 'Apunta tus gastos en segundos',
-			lead: 'Un toque, el importe y listo. Monibo hace que apuntar tu dinero sea tan rápido que no lo dejarás.',
+			lead: 'Apunta un gasto en pocos segundos: escríbelo o dilo a tu manera, como «34 súper ayer». Tan rápido que no lo dejarás.',
 			note: 'Sin cuenta · Sin anuncios · Sin seguimiento',
 		},
 		store: { download: 'Descárgala en el', downloadBig: 'App Store', soon: 'Muy pronto', soonSub: 'en el App Store' },
@@ -299,10 +299,10 @@ export const ui: Record<Lang, Strings> = {
 		],
 		privacy: {
 			title: 'Tu dinero es cosa tuya',
-			lead: 'Monibo no tiene cuentas de usuario ni servidores propios. Lo que apuntas se queda en tus dispositivos y en tu iCloud.',
+			lead: 'Monibo no tiene cuentas de usuario ni servidores propios. Los totales se calculan en tu iPhone y la sincronización pasa por tu iCloud.',
 			points: [
 				'Sin registro, sin anuncios, sin analítica',
-				'El dictado se transcribe en el propio dispositivo',
+				'Las frases se entienden en el dispositivo, sin IA',
 				'La IA es opcional y solo funciona con tu propia clave',
 			],
 			link: 'Lee la política de privacidad',

@@ -2,7 +2,7 @@
 description: How Monibo handles your data. No account, no servers of its own, no ads, no analytics and no tracking.
 ---
 
-> **In short:** Monibo has no user accounts, no servers of its own and does not collect data about you. Your transactions, accounts and categories are stored on your devices and, if sync is on, in your own iCloud. No ads, no analytics, no tracking.
+> **In short:** Monibo has no user accounts and no servers of its own: no ads, no analytics, no tracking. Your transactions, accounts and categories are stored on your devices and, if sync is on, in your own iCloud. Data only leaves them when you choose to: iCloud sync, backups, or the optional AI with your own key.
 
 ## Who is responsible
 
@@ -18,7 +18,7 @@ Everything you record in Monibo (transactions, accounts, categories, profiles, t
 
 ## Voice, camera and photos
 
-Monibo asks for access to the microphone, speech recognition, camera or photos only when you use a feature that needs it. Dictation is transcribed on the device. Receipt photos are read on the device to extract the amount and are not uploaded anywhere, except in the AI case described below.
+Monibo asks for access to the microphone, speech recognition, camera or photos only when you use a feature that needs it. When your language supports it, dictation is transcribed on the device; otherwise Apple’s speech recognition may process the audio on Apple’s servers, under Apple’s privacy policy. Typed sentences are always understood on the device. Receipt photos are read on the device to extract the amount and are not uploaded anywhere, except in the AI case described below.
 
 ## Automatic capture
 

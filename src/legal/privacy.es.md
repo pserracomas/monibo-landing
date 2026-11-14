@@ -2,7 +2,7 @@
 description: Cómo trata Monibo tus datos. Sin cuenta, sin servidores propios, sin anuncios, sin analítica y sin seguimiento.
 ---
 
-> **En pocas palabras:** Monibo no tiene cuentas de usuario, no tiene servidores propios y no recoge datos tuyos. Tus movimientos, cuentas y categorías se guardan en tus dispositivos y, si la sincronización está activada, en tu propio iCloud. Sin anuncios, sin analítica, sin seguimiento.
+> **En pocas palabras:** Monibo no tiene cuentas de usuario ni servidores propios: sin anuncios, sin analítica, sin seguimiento. Tus movimientos, cuentas y categorías se guardan en tus dispositivos y, si la sincronización está activada, en tu propio iCloud. Los datos solo salen de ellos cuando tú lo eliges: la sincronización con iCloud, las copias de seguridad o la IA opcional con tu clave.
 
 ## Responsable
 
@@ -18,7 +18,7 @@ Todo lo que apuntas en Monibo (movimientos, cuentas, categorías, perfiles, etiq
 
 ## Voz, cámara y fotos
 
-Monibo solo pide acceso al micrófono, al reconocimiento de voz, a la cámara o a las fotos cuando usas una función que lo necesita. El dictado se transcribe en el propio dispositivo. Las fotos de tickets se leen en el dispositivo para sacar el importe y no se suben a ningún sitio, salvo en el caso de la IA descrito más abajo.
+Monibo solo pide acceso al micrófono, al reconocimiento de voz, a la cámara o a las fotos cuando usas una función que lo necesita. Cuando tu idioma lo permite, el dictado se transcribe en el propio dispositivo; si no, el reconocimiento de voz de Apple puede procesar el audio en los servidores de Apple, según la política de privacidad de Apple. Las frases escritas siempre se entienden en el dispositivo. Las fotos de tickets se leen en el dispositivo para sacar el importe y no se suben a ningún sitio, salvo en el caso de la IA descrito más abajo.
 
 ## Captura automática
 
