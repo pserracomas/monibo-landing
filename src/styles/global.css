@@ -145,21 +145,49 @@ a {
 	color: var(--orange);
 }
 .langs {
+	position: relative;
+}
+.langs summary {
 	display: flex;
-	gap: 2px;
-	background: var(--card);
-	border-radius: 999px;
-	padding: 3px;
-}
-.langs a {
-	text-decoration: none;
-	font-size: 12px;
+	align-items: center;
+	gap: 6px;
+	list-style: none;
+	cursor: pointer;
+	font-size: 13px;
 	font-weight: 700;
-	padding: 4px 9px;
+	padding: 6px 12px;
 	border-radius: 999px;
-	color: var(--muted);
+	background: var(--card);
+	user-select: none;
 }
-.langs a[aria-current='true'] {
+.langs summary::-webkit-details-marker {
+	display: none;
+}
+.langs ul {
+	position: absolute;
+	right: 0;
+	top: calc(100% + 8px);
+	margin: 0;
+	padding: 6px;
+	list-style: none;
+	min-width: 160px;
+	background: var(--bg);
+	border: 1px solid var(--line);
+	border-radius: 16px;
+	box-shadow: 0 18px 40px -18px rgb(20 23 31 / 0.4);
+	z-index: 10;
+}
+.langs li a {
+	display: block;
+	padding: 8px 12px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.langs li a:hover {
+	background: var(--card);
+}
+.langs li a[aria-current='true'] {
 	background: var(--ink);
 	color: var(--bg);
 }

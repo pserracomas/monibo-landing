@@ -3,7 +3,7 @@ import '../styles/global.css';
 import wordmark from '../assets/monibo-wordmark.svg?raw';
 import wordmarkDark from '../assets/monibo-wordmark-on-dark.svg?raw';
 import { APP_STORE_ID, CONTACT_EMAIL, OWNER, SITE_URL } from '../consts';
-import { defaultLang, languages, langs, path, ui, type Lang, type Slug } from '../i18n/ui';
+import { defaultLang, languages, langs, locales, path, ui, type Lang, type Slug } from '../i18n/ui';
 
 interface Props {
 	lang: Lang;
@@ -18,13 +18,13 @@ const t = ui[lang];
 const pageTitle = title ? `${title} · Monibo` : t.meta.title;
 const pageDescription = description ?? t.meta.description;
 const canonical = new URL(path(lang, slug), SITE_URL).href;
-const ogLocale = { en: 'en_US', ca: 'ca_ES', es: 'es_ES' }[lang];
+const ogLocale = { en: 'en_US', ca: 'ca_ES', es: 'es_ES', fr: 'fr_FR', it: 'it_IT', de: 'de_DE', pt: 'pt_PT' }[lang];
 const home = path(lang);
 const year = new Date().getFullYear();
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={locales[lang]}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,7 +35,7 @@ const year = new Date().getFullYear();
 		{
 			!noindex &&
 				langs.map((l) => (
-					<link rel="alternate" hreflang={l} href={new URL(path(l, slug), SITE_URL).href} />
+					<link rel="alternate" hreflang={locales[l]} href={new URL(path(l, slug), SITE_URL).href} />
 				))
 		}
 		{!noindex && <link rel="alternate" hreflang="x-default" href={new URL(path(defaultLang, slug), SITE_URL).href} />}
@@ -71,21 +71,23 @@ const year = new Date().getFullYear();
 					<a href={`${home}#features`} class="hide-sm">{t.nav.features}</a>
 					<a href={`${home}#pro`} class="hide-sm">{t.nav.pro}</a>
 					<a href={path(lang, 'support')} aria-current={slug === 'support' ? 'page' : undefined}>{t.nav.support}</a>
-					<div class="langs" role="group" aria-label={t.language}>
-						{
-							langs.map((l) => (
-								<a
-									href={path(l, slug)}
-									hreflang={l}
-									lang={l}
-									aria-current={l === lang ? 'true' : undefined}
-									title={languages[l]}
-								>
-									{l.toUpperCase()}
-								</a>
-							))
-						}
-					</div>
+					<details class="langs">
+						<summary aria-label={`${t.language}: ${languages[lang]}`}>
+							<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm-9 9h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg>
+							{lang.toUpperCase()}
+						</summary>
+						<ul>
+							{
+								langs.map((l) => (
+									<li>
+										<a href={path(l, slug)} hreflang={locales[l]} lang={locales[l]} aria-current={l === lang ? 'true' : undefined}>
+											{languages[l]}
+										</a>
+									</li>
+								))
+							}
+						</ul>
+					</details>
 				</nav>
 			</div>
 		</header>
@@ -110,5 +112,18 @@ const year = new Date().getFullYear();
 				</nav>
 			</div>
 		</footer>
+		<script>
+			// Close the language menu on a click outside it or on Escape.
+			const menu = document.querySelector<HTMLDetailsElement>('details.langs');
+			document.addEventListener('click', (e) => {
+				if (menu?.open && !menu.contains(e.target as Node)) menu.open = false;
+			});
+			document.addEventListener('keydown', (e) => {
+				if (e.key === 'Escape' && menu?.open) {
+					menu.open = false;
+					menu.querySelector('summary')?.focus();
+				}
+			});
+		</script>
 	</body>
 </html>

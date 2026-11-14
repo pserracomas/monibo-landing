@@ -1,7 +1,8 @@
 # monibo-landing
 
 Website for [Monibo](https://monibo.app): landing page, privacy policy, terms of use and support,
-in English (`/`), Catalan (`/ca/`) and Spanish (`/es/`). Built with [Astro](https://astro.build) as a
+in English (`/`), Catalan (`/ca/`), Spanish (`/es/`), French (`/fr/`), Italian (`/it/`), German (`/de/`)
+and Portuguese (`/pt/`, European). Built with [Astro](https://astro.build) as a
 fully static site.
 
 ## URLs for App Store Connect
@@ -29,7 +30,8 @@ npm run preview
 | Path | What |
 |---|---|
 | `src/consts.ts` | Contact email, **App Store id** (null shows "Coming soon"), Pro prices, legal date |
-| `src/i18n/ui.ts` | All landing page texts in the three languages |
+| `src/i18n/ui.ts` | Languages, URL helpers and the shape of the texts |
+| `src/i18n/strings/*.ts` | Landing page texts, one file per language |
 | `src/legal/*.md` | Privacy policy, terms and support/FAQ, one Markdown file per page and language |
 | `src/views/` | Home and legal page templates shared by every language |
 | `src/assets/shots/` | App Store screenshots per language (optimised to WebP at build time) |

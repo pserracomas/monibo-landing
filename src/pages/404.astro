@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { langs, path, ui } from '../i18n/ui';
+import { langs, locales, path, ui } from '../i18n/ui';
 ---
 
 <Base lang="en" slug="" title="404" noindex>
@@ -8,7 +8,7 @@ import { langs, path, ui } from '../i18n/ui';
 		<h1 class="display">404</h1>
 		{
 			langs.map((l) => (
-				<p lang={l}>
+				<p lang={locales[l]}>
 					<strong>{ui[l].notFound.title}.</strong> {ui[l].notFound.body} <a href={path(l)}>{ui[l].notFound.home} →</a>
 				</p>
 			))

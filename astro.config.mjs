@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://monibo.app',
 	trailingSlash: 'always',
 	i18n: {
-		locales: ['en', 'ca', 'es'],
+		locales: ['en', 'ca', 'es', 'fr', 'it', 'de', 'pt'],
 		defaultLocale: 'en',
 		routing: { prefixDefaultLocale: false },
 	},
